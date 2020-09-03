@@ -3,7 +3,7 @@ body{
     font-family: "Baloo Tamma 2", serif;
 }
 
-.container{
+.wholeSite{
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -14,11 +14,11 @@ body{
     padding: 30px;
 }
 
-.right-side{
+.right{
     display:flex;
 }
 
-.nav-wrapper > .right-side > div {
+.nav-wrapper .right div {
     margin-right: 20px;
     text-transform: uppercase;
 }
@@ -43,7 +43,7 @@ body{
     color: black;
 }
 
-.item-collection-wrapper{
+.gallery{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -73,13 +73,13 @@ body{
     padding-right: 100px;
 }
 
-.img-text-wrapper .title{
+.img-text-wrapper .text{
     transition:1s;
     font-weight: 600;
     color: transparent;
 }
 
-.img-text-wrapper:hover .title{
+.img-text-wrapper:hover .text{
     font-weight: 600;
     color: white;
 }
@@ -89,7 +89,7 @@ body{
     filter: brightness(10%);
 }
 
-.text{
+.text1{
     display: flex;
     text-align: center;
     margin-right: 100px;
